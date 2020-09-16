@@ -1,0 +1,12 @@
+@import "../../styles/colors";
+
+.list-products-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  .list-products-wrapper {
+    grid-column: 2 / span 10;
+    background-color: white;
+    border-radius: 4px;
+    padding: 16px;
+  }
+}

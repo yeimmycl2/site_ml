@@ -1,0 +1,9 @@
+@import "../../styles/colors";
+
+.loader-container {
+  display: grid;
+  width: 100%;
+  justify-items: center;
+  align-items: center;
+  height: 100vh;
+}

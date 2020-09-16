@@ -1,0 +1,32 @@
+@import '../../styles/colors';
+@import '../../styles/styles';
+
+.navbar-wrapper{
+    background-color: $primary-color;
+    height: 52px;
+
+    .bar-container{
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        height: 100%;
+        align-items: center;
+
+        .logo{
+            grid-column: 2 / span 1;
+            justify-self: baseline;
+        }
+
+        .search-bar{
+            grid-column: 3 / span 9;
+            height: 36px;
+        }
+    }
+}
+
+
+@media screen and (min-width: $size_tablet) {
+
+}
+@media screen and (min-width: $size_desktop) {
+
+}

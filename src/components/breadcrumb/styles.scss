@@ -1,0 +1,21 @@
+@import "../../styles/colors";
+
+.breadcrumb-wrapper {
+    margin: 16px 0px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    .category-breadcrumb-container  {
+        grid-column: 2 / span 10;
+        margin: 0;
+        padding: 0;
+        .category-breadcrumb{
+            font-size: 14px;
+            color: $gray1;
+            display: inline-block;
+            list-style-type: none;
+        }
+        i{
+            padding: 0px 8px;
+        }
+    }
+}
